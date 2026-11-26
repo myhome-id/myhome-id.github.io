@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Home — Katalog Inspirasi Outfit</title>
+  <title>My Home Lookbook — Catatan Gaya Harian &amp; Mix-and-Match</title>
   <style>
     :root {
       --bg: #FAF6F1;
@@ -19,34 +19,52 @@
       background: var(--bg);
       color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      line-height: 1.5;
-      padding: 24px 16px 48px;
+      line-height: 1.55;
+      padding: 28px 16px 48px;
     }
     .container { max-width: 480px; margin: 0 auto; }
     .header {
       text-align: center;
       margin-bottom: 24px;
-      padding-bottom: 16px;
+      padding-bottom: 18px;
       border-bottom: 1px solid var(--border);
     }
+    .header-tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
     .header h1 {
-      font-size: 22px;
+      font-size: 24px;
       font-weight: 700;
-      letter-spacing: -0.3px;
+      letter-spacing: -0.4px;
       color: var(--text);
     }
-    .header p {
-      font-size: 13px;
+    .header p.subtitle {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      margin-top: 6px;
+    }
+    .header p.intro {
+      font-size: 12.5px;
       color: var(--muted);
-      margin-top: 4px;
+      margin-top: 8px;
+      max-width: 380px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 16px;
+      border-radius: 18px;
       overflow: hidden;
-      box-shadow: 0 4px 14px rgba(47, 38, 33, 0.05);
-      margin-bottom: 20px;
+      box-shadow: 0 6px 18px rgba(47, 38, 33, 0.06);
+      margin-bottom: 22px;
     }
     .img-wrap {
       position: relative;
@@ -54,6 +72,7 @@
       aspect-ratio: 1 / 1;
       background: #F3ECE4;
       overflow: hidden;
+      display: block;
     }
     .img-wrap img {
       width: 100%;
@@ -78,22 +97,22 @@
     }
     .thumb-btn.active { border-color: var(--primary); }
     .thumb-btn img { width: 100%; height: 100%; object-fit: cover; }
-    .card-body { padding: 14px 16px 18px; }
+    .card-body { padding: 14px 16px 20px; }
     .badge {
       display: inline-block;
-      font-size: 11px;
+      font-size: 11.5px;
       font-weight: 600;
       color: var(--primary);
       background: #F4EDE6;
-      padding: 3px 9px;
+      padding: 4px 11px;
       border-radius: 99px;
-      margin-bottom: 8px;
+      margin-bottom: 10px;
     }
     .title {
-      font-size: 15px;
+      font-size: 15.5px;
       font-weight: 600;
       color: var(--text);
-      margin-bottom: 14px;
+      margin-bottom: 16px;
     }
     .btn {
       display: block;
@@ -104,28 +123,41 @@
       text-decoration: none;
       font-size: 14px;
       font-weight: 600;
-      padding: 12px 16px;
-      border-radius: 10px;
+      padding: 13px 16px;
+      border-radius: 12px;
       transition: background 0.2s;
     }
     .btn:hover { background: var(--primary-dark); }
+    .cta-note {
+      text-align: center;
+      font-size: 11.5px;
+      color: var(--muted);
+      margin-top: 8px;
+    }
     .footer {
       text-align: center;
       font-size: 12px;
       color: var(--muted);
       margin-top: 28px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+    .footer p {
+      margin-bottom: 6px;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="header">
-      <h1>My Home</h1>
-      <p>Katalog Inspirasi Outfit &amp; Rekomendasi Pilihan</p>
+      <span class="header-tag">Curated Style Journal</span>
+      <h1>My Home Lookbook</h1>
+      <p class="subtitle">Catatan Gaya Harian &amp; Rahasia Mix-and-Match Anti-Mati Gaya</p>
+      <p class="intro">Dikurasi khusus untuk kamu yang ingin tampil rapi, jenjang, dan berkelas tanpa ribet padu-padan.</p>
     </div>
 
     <div class="card">
-      <a href="https://s.shopee.co.id/6q2ZXpTMJd" target="_blank" rel="noopener noreferrer" class="img-wrap">
+      <a href="https://shopee.co.id" target="_blank" rel="noopener noreferrer" class="img-wrap">
         <img id="main-img-1" src="uhmltid-11134207-81ztc-mvd9tkxv17nt9f.jpg" alt="Atasan wanita lengan pendek berkerah V motif leopard" />
       </a>
       <div class="thumbs">
@@ -137,16 +169,18 @@
         </button>
       </div>
       <div class="card-body">
-        <span class="badge">Outfit Pilihan #01</span>
+        <span class="badge">✨ Look #01 • Efek Auto-Ramping</span>
         <h2 class="title">Atasan Wanita Lengan Pendek Berkerah V Motif Leopard Resleting Aktif — Korean Fashion Knit Premium</h2>
-        <a href="https://s.shopee.co.id/6q2ZXpTMJd" target="_blank" rel="noopener noreferrer" class="btn">
-          Lihat &amp; Beli di Shopee
+        <a href="https://shopee.co.id" target="_blank" rel="noopener noreferrer" class="btn">
+          Intip Detail &amp; Pilihan Warnanya &rarr;
         </a>
+        <p class="cta-note">Cek ketersediaan ukuran &amp; stok terbaru di Shopee</p>
       </div>
     </div>
 
     <div class="footer">
-      &copy; 2026 My Home • Katalog Produk Pilihan
+      <p>Semua inspirasi outfit di atas dipilih berdasarkan kenyamanan bahan &amp; potongan yang ramah di berbagai bentuk tubuh.</p>
+      <span>&copy; 2026 My Home Lookbook</span>
     </div>
   </div>
 
